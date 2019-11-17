@@ -285,6 +285,8 @@ TreeNode.h
 ../src/TreeNode.h
 vector
 -
+iostream
+-
 LinkedStack.h
 ../src/LinkedStack.h
 
@@ -321,10 +323,6 @@ vector
 /home/mclovin/Desktop/homework5/problem_2/test/BinaryTreeTest.cpp
 BinaryTree.h
 /home/mclovin/Desktop/homework5/problem_2/test/BinaryTree.h
-gtest/gtest.h
-/home/mclovin/Desktop/homework5/problem_2/test/gtest/gtest.h
-
-/home/mclovin/Desktop/homework5/problem_2/test/main.cpp
 gtest/gtest.h
 /home/mclovin/Desktop/homework5/problem_2/test/gtest/gtest.h
 
