@@ -1,0 +1,3 @@
+/home/mclovin/Desktop/homework5/problem_2/lib/googletest/CMakeFiles/rebuild_cache.dir
+/home/mclovin/Desktop/homework5/problem_2/lib/googletest/CMakeFiles/googletest.dir
+/home/mclovin/Desktop/homework5/problem_2/lib/googletest/CMakeFiles/edit_cache.dir
