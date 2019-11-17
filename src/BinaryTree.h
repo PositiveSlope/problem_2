@@ -17,6 +17,15 @@ private:
         return 1 + std::max(height(root->left), height(root->right));
     }
 
+    void deleteTree(TreeNode<T> *node) {//added helper
+        if(node==nullptr){
+            return;
+        }
+        deleteTree(node->left);
+        deleteTree(node->right);
+        delete node;
+    }
+
 public:
     BinaryTree() : root(nullptr) {};
 
@@ -45,12 +54,21 @@ public:
         // don't bother
     }
 
-    std::vector<T> traversePostOrder() override {
+    std::vector<T> traversePostOrder() override {//iteratively using a stack
         // homework, to be done iteratively
+        Stack<TreeNode<T>> stack;//og stack
+        stack.push(root);
+
+        while(!stack.isEmpty()){
+            ListNode<T> *curr=stack.top();
+            stack.pop();
+        }
+
     }
 
-    virtual ~BinaryTree() {
+    virtual ~BinaryTree() {//using delete function to delete connections
         // homework
+        deleteTree(root);//calls to do recursively
     }
 
     T LCA(T node1, T node2) {

@@ -16,3 +16,7 @@ TEST(tree, demo) {
     ASSERT_EQ(tree.height(),3);
 }
 
+TEST(tree, preDeconstruct){
+
+
+}
